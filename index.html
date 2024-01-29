@@ -62,7 +62,361 @@
             </div>
         </div>
     </header>
-    <main class="main">Main</main>
+    <main class="main">
+        <div class="container">
+            <div class="carousel">slide</div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="sidebar">
+                        <div class="filter">
+                            <p>DEVICE TYPE</p>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__laptop" class="filter__checkbox">
+                                <label for="checkbox-filter__laptop" class="filter__checkbox-label">Laptop</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__tablet" class="filter__checkbox">
+                                <label for="checkbox-filter__tablet" class="filter__checkbox-label">Tablet</label>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <p>COLOR</p>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__black" class="filter__checkbox">
+                                <label for="checkbox-filter__black" class="filter__checkbox-label">Black</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__red" class="filter__checkbox">
+                                <label for="checkbox-filter__red" class="filter__checkbox-label">Red</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__green" class="filter__checkbox">
+                                <label for="checkbox-filter__green" class="filter__checkbox-label">Green</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__blue" class="filter__checkbox">
+                                <label for="checkbox-filter__blue" class="filter__checkbox-label">Blue</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__orange" class="filter__checkbox">
+                                <label for="checkbox-filter__orange" class="filter__checkbox-label">Orange</label>
+                            </div>
+                        </div>
+                        <div class="filter filter-last">
+                            <p>RAM</p>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__1gb" class="filter__checkbox">
+                                <label for="checkbox-filter__1gb" class="filter__checkbox-label">1GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__2gb" class="filter__checkbox">
+                                <label for="checkbox-filter__2gb" class="filter__checkbox-label">2GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__4gb" class="filter__checkbox">
+                                <label for="checkbox-filter__4gb" class="filter__checkbox-label">4GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__6gb" class="filter__checkbox">
+                                <label for="checkbox-filter__6gb" class="filter__checkbox-label">6GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox-filter__8gb" class="filter__checkbox">
+                                <label for="checkbox-filter__8gb" class="filter__checkbox-label">8GB</label>
+                            </div>
+                        </div>
+                        <div class="filter-more">
+                            <a href="">Show more options ...</a>
+                        </div>
+                        <div class="filter-btn">
+                            <button>SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="breadcrumbs">
+                        <a href="#">Home page</a>
+                        <a href="#">Products</a>
+                        <a href="#">Laptops and Tablets</a>
+                    </div>
+                    <div class="row catalog-header">
+                        <div class="col-8">
+                            <div class="catalog-header__title">Laptops and Tablets</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="catalog-header__setting">
+                                <div class="sort sort-selected">
+                                    sort by price
+                                    <i class="fa-solid fa-chevron-down fa-2xs icon-down" style="font-size: 13px;"></i>
+                                    <div class="sort sort-list">
+                                        <div class="sort-item">sort by name</div>
+                                        <div class="sort-item">sort by date</div>
+                                        <div class="sort-item">sort by popularity</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (17).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#1 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$599<span> 25</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (11).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#2 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$1250<span> 99</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (10).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#3 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$399<span> 50</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (16).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#1 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$599<span> 25</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (14).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#2 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$1250<span> 99</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (12).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#3 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$399<span> 50</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (15).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#1 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$599<span> 25</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (9).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#2 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$1250<span> 99</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart-goods">
+                                    <div class="cart__img">
+                                        <img src="image/icon (13).png" alt="">
+                                        <div class="cart-img__group-btn">
+                                            <button class="cart-img__btn cart-img__btn-scale"></button>
+                                            <button class="cart-img__btn cart-img__btn-favorite"></button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-tile">
+                                        <div class="cart-tile__title">
+                                            <h3>#3 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <p><span>TYPE:</span> Laptop</p>
+                                            <p><span>SCREEN SIZE:</span> 7 inches</p>
+                                            <p><span>RAM:</span> 1GB</p>
+                                        </div>
+                                        <div class="cart-tile__price">
+                                            <p>$399<span> 50</span></p>
+                                        </div>
+                                        <div class="cart-tile__btn-container">
+                                            <button class="cart-tile__btn cart-tile__btn-more">MORE DETAILS</button>
+                                            <button class="cart-tile__btn cart-tile__btn-add">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 catalog__more">
+                                <button class="catalog__btn-more">Load more ...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="footer">Footer</footer>
 
     <script src="https://kit.fontawesome.com/39283d0d53.js" crossorigin="anonymous"></script>
