@@ -118,6 +118,7 @@ body {
     width: 200%;
     background-color: #2c71b8;
     padding: 18px 0 17px;
+    z-index: 5;
 }
 .submenu li {
     height: 40px;
@@ -323,6 +324,7 @@ body {
     left: -2px;
     display: none;
     width: 269px;
+    z-index: 5;
 }
 .sort-item {
     line-height: 40px;
@@ -472,4 +474,22 @@ body {
     border: none;
     text-align: center;
     cursor: pointer;
+}
+
+.footer {
+    margin-top: 77px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.container {
+}
+.footer-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.footer-block_item {
+    font-size: 21px;
+    color: #2c71b8;
+    text-align: center;
 }
